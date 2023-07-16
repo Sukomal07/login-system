@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 40px;
+    gap: 15px;
+}
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.username{
+    font-size: 40px;
+    font-weight: bold;
+    color: #2cabd4;
+}
+.bio{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.userEmail{
+    font-size: 20px;
+    color: #888;
+    font-weight: 700;
+}
+.follower{
+    color: #888;
+    font-weight: 600;
+}
